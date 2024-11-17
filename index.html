@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Personality Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pirate Personality Test</h1>
+    </header>
+    <main>
+        <!-- Start Screen -->
+        <div id="start-screen">
+            <h2>Find out which pirate matches your personality!</h2>
+            <button id="start-button">Start Test</button>
+        </div>
+
+        <!-- Question Screen -->
+        <div id="question-screen" style="display: none;">
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="answer-choices"></div>
+            </div>
+        </div>
+
+<!-- Result Screen -->
+<div id="result-screen" style="display: none;">
+    <h2 id="result-header">Your Pirate Match:</h2>
+    <p id="result"></p>
+    <button id="restart-btn">Restart</button>
+</div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
